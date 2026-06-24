@@ -1,0 +1,45 @@
+# Скомпилированные файлы (бинарники)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Папка с зависимостями (если используешь go mod)
+vendor/
+
+# Файлы Go workspace
+go.work
+go.work.sum
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Файлы с секретами и конфигами
+.env
+*.env
+*.key
+*.pem
+
+# Временные файлы и логи
+tmp/
+temp/
+*.log
+*.tmp
+*.txt
+*.pdf
+*.docx
+*.xlsx
+
+# Если используешь Yandex Vision API — кеш или скачанные изображения
+downloads/
+uploads/
+output/
